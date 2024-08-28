@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Yousef's Burger</h1>
+        <p>best burger and pizza in town.</p>
+    </header>
+    <main>
+        <div id="menu-board">
+            <!-- menu goes here -->
+        </div>
+        
+        <div id="order-board" class="order-board">
+            <h2>Your order</h2>
+            <div class="order-list" id="order-list">
+                <!-- your order details goes here -->
+            </div>
+            <div class="total-price">
+                <h2>Total Price:</h2>
+                <h3 id="total-order-price">
+                    <!-- the total price goes here -->
+                </h3>
+            </div>
+            <button class="order-btn" id="order-btn">Complete Order</button>
+        </div>
+        <div id="personal-info" class="info">
+            <h2>Enter Card Details</h2>
+            <h4 id="worn"></h4>
+            <form class="form" action="/action_page.php">  
+                <input type="text" id="name" placeholder="Enter Your Name" required/>
+                <input type="number" id="card-num"  placeholder="Enter Card Number" />
+                <input type="number" id="cvv"  placeholder="Enter CVV" />
+                <button id="pay-btn" class="pay-btn" type="submit">Pay</button>
+            </form>
+        </div>
+    </main>
+<script src="index.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s0uiekpc2m",
+  "description": "https://v2.scrimba.com/s02tj66/s0uiekpc2m",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
